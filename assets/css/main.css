@@ -1461,3 +1461,11 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+  .paper-link {
+    text-decoration: underline;
+    color: inherit; /* same as normal text */
+    transition: color 0.3s ease;
+  }
+  .paper-link:hover {
+    color: blue; /* turns blue on hover */
+  }
