@@ -1469,3 +1469,27 @@ section,
   .paper-link:hover {
     color: blue; /* turns blue on hover */
   }
+
+    /* Download CV button */
+  .btn-download {
+    background-color: transparent;
+    color: white;
+    border: 2px solid #b89c75;
+    transition: all 0.3s ease;
+  }
+  .btn-download:hover {
+    background-color: #b89c75;
+    color: white;
+  }
+
+  /* Contact Info button */
+  .btn-contact {
+    background-color: transparent;
+    color: white;
+    border: 2px solid #b89c75;
+    transition: all 0.3s ease;
+  }
+  .btn-contact:hover {
+    background-color: #b89c75;
+    color: white;
+  }
