@@ -1493,3 +1493,48 @@ section,
     background-color: #b89c75;
     color: white;
   }
+
+
+  /* Force image size */
+  .fixed-size {
+    width: 768px;
+    height: 768px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+  }
+
+
+.btn-read {
+  display: inline-block;
+  background: #28a745 !important;  /* Green */
+  color: #fff !important;
+  padding: 6px 14px;
+  border-radius: 4px;
+  font-size: 14px;
+  text-decoration: none;
+  margin-right: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.btn-read:hover {
+  background: #218838 !important;  /* Darker green */
+}
+
+   .project-img{
+    width: 100%;          /* take full column width */
+    height: 250px;        /* fixed height for all */
+    object-fit: cover;    /* crops to fit box, keeps layout clean */
+    display: block;
+  }
+
+  .btn-workexperience {
+    background-color: transparent;
+    color:  #b89c75;
+    border: 2px solid #b89c75;
+    transition: all 0.3s ease;
+  }
+
+  .btn-workexperience:hover {
+    background-color: #b89c75;
+    color: white;
+  }
